@@ -7,11 +7,11 @@ metadata:
 spec:
   group: unitycatalog.databricks.m.upbound.io
   names:
+    kind: Catalog
     categories:
     - crossplane
     - managed
     - databricks
-    kind: Catalog
     listKind: CatalogList
     plural: catalogs
     singular: catalog

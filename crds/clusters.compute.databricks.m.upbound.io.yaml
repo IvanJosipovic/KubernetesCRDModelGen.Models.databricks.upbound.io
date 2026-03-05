@@ -7,11 +7,11 @@ metadata:
 spec:
   group: compute.databricks.m.upbound.io
   names:
+    kind: Cluster
     categories:
     - crossplane
     - managed
     - databricks
-    kind: Cluster
     listKind: ClusterList
     plural: clusters
     singular: cluster

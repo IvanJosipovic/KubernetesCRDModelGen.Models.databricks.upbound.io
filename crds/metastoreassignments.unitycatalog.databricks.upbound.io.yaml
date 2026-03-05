@@ -7,11 +7,11 @@ metadata:
 spec:
   group: unitycatalog.databricks.upbound.io
   names:
+    kind: MetastoreAssignment
     categories:
     - crossplane
     - managed
     - databricks
-    kind: MetastoreAssignment
     listKind: MetastoreAssignmentList
     plural: metastoreassignments
     singular: metastoreassignment

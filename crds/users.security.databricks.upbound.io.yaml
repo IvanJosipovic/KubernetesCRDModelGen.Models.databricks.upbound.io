@@ -7,11 +7,11 @@ metadata:
 spec:
   group: security.databricks.upbound.io
   names:
+    kind: User
     categories:
     - crossplane
     - managed
     - databricks
-    kind: User
     listKind: UserList
     plural: users
     singular: user

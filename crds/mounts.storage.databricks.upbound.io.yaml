@@ -7,11 +7,11 @@ metadata:
 spec:
   group: storage.databricks.upbound.io
   names:
+    kind: Mount
     categories:
     - crossplane
     - managed
     - databricks
-    kind: Mount
     listKind: MountList
     plural: mounts
     singular: mount

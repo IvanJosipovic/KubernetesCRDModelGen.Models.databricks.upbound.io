@@ -7,11 +7,11 @@ metadata:
 spec:
   group: mws.databricks.m.upbound.io
   names:
+    kind: PrivateAccessSettings
     categories:
     - crossplane
     - managed
     - databricks
-    kind: PrivateAccessSettings
     listKind: PrivateAccessSettingsList
     plural: privateaccesssettings
     singular: privateaccesssettings

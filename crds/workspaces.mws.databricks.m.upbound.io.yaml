@@ -7,11 +7,11 @@ metadata:
 spec:
   group: mws.databricks.m.upbound.io
   names:
+    kind: Workspaces
     categories:
     - crossplane
     - managed
     - databricks
-    kind: Workspaces
     listKind: WorkspacesList
     plural: workspaces
     singular: workspaces

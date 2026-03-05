@@ -7,11 +7,11 @@ metadata:
 spec:
   group: mws.databricks.m.upbound.io
   names:
+    kind: Networks
     categories:
     - crossplane
     - managed
     - databricks
-    kind: Networks
     listKind: NetworksList
     plural: networks
     singular: networks

@@ -7,11 +7,11 @@ metadata:
 spec:
   group: mws.databricks.m.upbound.io
   names:
+    kind: VPCEndpoint
     categories:
     - crossplane
     - managed
     - databricks
-    kind: VPCEndpoint
     listKind: VPCEndpointList
     plural: vpcendpoints
     singular: vpcendpoint

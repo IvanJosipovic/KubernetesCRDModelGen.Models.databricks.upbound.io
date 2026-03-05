@@ -7,11 +7,11 @@ metadata:
 spec:
   group: unitycatalog.databricks.m.upbound.io
   names:
+    kind: ExternalLocation
     categories:
     - crossplane
     - managed
     - databricks
-    kind: ExternalLocation
     listKind: ExternalLocationList
     plural: externallocations
     singular: externallocation

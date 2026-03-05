@@ -7,11 +7,11 @@ metadata:
 spec:
   group: unitycatalog.databricks.m.upbound.io
   names:
+    kind: Grants
     categories:
     - crossplane
     - managed
     - databricks
-    kind: Grants
     listKind: GrantsList
     plural: grants
     singular: grants

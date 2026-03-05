@@ -7,11 +7,11 @@ metadata:
 spec:
   group: security.databricks.upbound.io
   names:
+    kind: ServicePrincipal
     categories:
     - crossplane
     - managed
     - databricks
-    kind: ServicePrincipal
     listKind: ServicePrincipalList
     plural: serviceprincipals
     singular: serviceprincipal

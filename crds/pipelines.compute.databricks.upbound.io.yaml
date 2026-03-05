@@ -7,11 +7,11 @@ metadata:
 spec:
   group: compute.databricks.upbound.io
   names:
+    kind: Pipeline
     categories:
     - crossplane
     - managed
     - databricks
-    kind: Pipeline
     listKind: PipelineList
     plural: pipelines
     singular: pipeline

@@ -7,11 +7,11 @@ metadata:
 spec:
   group: workspace.databricks.m.upbound.io
   names:
+    kind: Directory
     categories:
     - crossplane
     - managed
     - databricks
-    kind: Directory
     listKind: DirectoryList
     plural: directories
     singular: directory
