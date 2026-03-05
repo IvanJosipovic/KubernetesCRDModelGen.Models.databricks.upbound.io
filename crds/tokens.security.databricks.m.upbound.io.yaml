@@ -7,11 +7,11 @@ metadata:
 spec:
   group: security.databricks.m.upbound.io
   names:
+    kind: Token
     categories:
     - crossplane
     - managed
     - databricks
-    kind: Token
     listKind: TokenList
     plural: tokens
     singular: token

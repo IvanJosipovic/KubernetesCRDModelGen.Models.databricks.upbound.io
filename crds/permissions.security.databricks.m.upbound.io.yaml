@@ -7,11 +7,11 @@ metadata:
 spec:
   group: security.databricks.m.upbound.io
   names:
+    kind: Permissions
     categories:
     - crossplane
     - managed
     - databricks
-    kind: Permissions
     listKind: PermissionsList
     plural: permissions
     singular: permissions

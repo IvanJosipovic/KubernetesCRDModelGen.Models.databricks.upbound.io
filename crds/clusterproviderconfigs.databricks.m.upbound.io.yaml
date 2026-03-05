@@ -7,11 +7,11 @@ metadata:
 spec:
   group: databricks.m.upbound.io
   names:
+    kind: ClusterProviderConfig
     categories:
     - crossplane
     - providerconfig
     - aws
-    kind: ClusterProviderConfig
     listKind: ClusterProviderConfigList
     plural: clusterproviderconfigs
     singular: clusterproviderconfig

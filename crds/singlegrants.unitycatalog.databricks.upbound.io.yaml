@@ -7,11 +7,11 @@ metadata:
 spec:
   group: unitycatalog.databricks.upbound.io
   names:
+    kind: SingleGrant
     categories:
     - crossplane
     - managed
     - databricks
-    kind: SingleGrant
     listKind: SingleGrantList
     plural: singlegrants
     singular: singlegrant

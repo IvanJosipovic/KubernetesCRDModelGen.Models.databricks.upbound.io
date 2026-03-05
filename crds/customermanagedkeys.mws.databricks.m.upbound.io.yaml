@@ -7,11 +7,11 @@ metadata:
 spec:
   group: mws.databricks.m.upbound.io
   names:
+    kind: CustomerManagedKeys
     categories:
     - crossplane
     - managed
     - databricks
-    kind: CustomerManagedKeys
     listKind: CustomerManagedKeysList
     plural: customermanagedkeys
     singular: customermanagedkeys

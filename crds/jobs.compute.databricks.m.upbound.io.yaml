@@ -7,11 +7,11 @@ metadata:
 spec:
   group: compute.databricks.m.upbound.io
   names:
+    kind: Job
     categories:
     - crossplane
     - managed
     - databricks
-    kind: Job
     listKind: JobList
     plural: jobs
     singular: job
